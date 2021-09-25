@@ -2,6 +2,7 @@
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Postcontroller;
 use Inertia\Inertia;
 
 /*
@@ -27,5 +28,9 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+
+Route::get('/', [Postcontroller::class, 'home'])->name('post.home');
+
 
 require __DIR__.'/auth.php';
