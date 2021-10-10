@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>Mirai</h1>
+      <h1>NOA</h1>
   </div>
 </template>
 <script>
