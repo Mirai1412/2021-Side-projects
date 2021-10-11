@@ -27,3 +27,11 @@ export default {
   margin: 0 auto;
 }
 </style>
+<style lang="scss">
+body{
+  width: 100%;
+  margin: 0 auto;
+  
+}
+</style>
+
