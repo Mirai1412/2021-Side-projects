@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\PostControllers;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,14 +14,9 @@ use App\Http\Controllers\PagesController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Route::get('/{id}', 'App\Http\Controllers\PagesController@index');
-
-Route::get('/', [PagesController::class, 'index']);
-
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -29,4 +24,7 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 
-//register
+Route::get('/home', [PostControllers::class, 'home'])->name('home');
+Route::get('/list', [PostControllers::class, 'list'])->name('list');
+Route::get('/create', [PostControllers::class, 'create'])->name('create');
+

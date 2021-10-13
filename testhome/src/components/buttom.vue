@@ -28,6 +28,7 @@ export default {
   height: 160px;
   margin: 0 auto;
   border-top:3px solid rgb(209, 209, 209);
+  margin-top: 50px;
 }
 .buttomt{
   width: 100%;
@@ -55,7 +56,7 @@ export default {
     margin: 0 20px;
   }
   li:hover{
-        color: red;
+        color: brown;
   }
 
 }
