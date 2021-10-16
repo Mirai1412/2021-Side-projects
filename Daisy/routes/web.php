@@ -28,3 +28,5 @@ Route::get('/home', [PostControllers::class, 'home'])->name('home');
 Route::get('/list', [PostControllers::class, 'list'])->name('list');
 Route::get('/create', [PostControllers::class, 'create'])->name('create');
 
+Route::post('/store', [PostControllers::class, 'store'])->name('store');
+
