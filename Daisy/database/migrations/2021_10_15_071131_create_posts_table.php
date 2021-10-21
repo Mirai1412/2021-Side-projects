@@ -15,6 +15,11 @@ class CreatePostsTable extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->MEDIUMTEXT('content');
+            $table->foreignId('user_id')
+            ->constrained()
+            ->onDelete('cascade');//사용자가 나가면 같이 삭제해달라는것
             $table->timestamps();
         });
     }

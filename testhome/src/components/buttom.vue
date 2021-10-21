@@ -8,7 +8,7 @@
       </ul>
     </div>
     <div class="buttomt"> 
-      <h1>© 2021Laravel Personal project.</h1>
+      <h1>© 2021 Laravel Personal Project.</h1>
       <p>A cup of warm coffee in your heart</p>
     </div>
   </div>
@@ -29,22 +29,24 @@ export default {
   margin: 0 auto;
   border-top:3px solid rgb(209, 209, 209);
   margin-top: 50px;
+ 
 }
 .buttomt{
   width: 100%;
   h1{
     display: flex;
     justify-content: center;
-    font-size: 20px;
+    font-size: 1.0em;
   }
   p{
     display: flex;
     justify-content: center;
-    font-size: 10px;
+    font-size: 0.7em;
   }
 }
 .linki{
   width: 100%;
+    font-family: 'Nanum Pen Script', cursive;
   ul{
     display: flex;
     justify-content: center;
@@ -53,7 +55,8 @@ export default {
   }
   li{
     display: inline;
-    margin: 0 20px;
+    margin: 0 10px;
+    font-size: 1.5em;
   }
   li:hover{
         color: brown;

@@ -1,9 +1,14 @@
 <template>
   <div id="headerpage">
+    <form class="headerserch">
+      <input type="text" placeholder="">
+      <button>검색</button>
+    </form>
     <div class="headerl">
         <ul>
           <li>로그인</li>
           <li>회원가입</li>
+          <li><router-link to="/center" class="rl">고객센터</router-link></li>
         </ul>
     </div>
     <div class="headert">
@@ -11,11 +16,11 @@
     </div>
     <div class="headerul">
         <ul>
-          <li>메인</li>
-          <li>메뉴</li>
-          <li>주문하기</li>
-          <li>장바구니</li>
-          <li>문의하기</li>
+         <li><router-link to="/" class="rl">메인</router-link></li>
+         <li><router-link to="/menu" class="rl">메뉴</router-link></li>
+         <li><router-link to="/coffee" class="rl">주문하기</router-link></li>
+         <li><router-link to="/basket" class="rl">장바구니</router-link></li>
+         <li><router-link to="/question" class="rl">문의하기</router-link></li>
         </ul>
     </div>
 
@@ -35,35 +40,71 @@ export default {
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 
 #headerpage{
-  height: 204px;
   width: 100%;
   margin: 0 auto;
 }
+.rl{
+    color: black; 
+    text-decoration: none;
+  }
 .headerl{
   height: 50px;
   position: absolute;
   right: 4.5%;
+  
   ul{
+    
     margin: 0;
     padding: 0;
     
   }
   li{
+
     display: inline-block;
     list-style: none;
     margin: 15px 10px;
     font-family: 'Nanum Pen Script', cursive;
-    font-size: 25px;
+    font-size: 1.3em;
   }
   li:hover{
     color: brown;
   }
+
 }
+.headerserch{
+  height: 25px;
+  top: 15px;
+  position: absolute;
+  left: 5%;
+  vertical-align: text-bottom;
+
+  button{
+    position: absolute;
+    top: 1px;
+    width: 50px;
+    height: 25px;
+    padding: 1px;
+    margin: 0px 5px;
+    background: white;
+    border: 1px solid black;
+
+    &:hover{
+      color: white;
+      background: black;
+    }
+  }
+  
+  input{
+    height: 20px;
+  }
+}
+
 .headert{
   border-bottom:3px solid rgb(209, 209, 209);
   width: 90%;
   height: 150px;
   margin: 0 auto;
+  padding-top: 40px;
   display: flex;
   justify-content: center;
     .dag{
@@ -74,56 +115,29 @@ export default {
 .headerul{
   width: 90%;
   margin: 0 auto;
-  height: 50px;
   border-bottom:3px solid rgb(209, 209, 209);
   display: flex;
+  height: 47px;
   justify-content: center;
-  ul{
+  position: relative;
+  
+  ul{ 
+
       margin: 0;
       padding: 0;
+      position: absolute;
   }
   li{
       font-family: 'Nanum Pen Script', cursive;
-      font-size: 25px;
+      font-size: 1.5em;
       display: inline-block;
-      margin: 13px 20px;
+      margin: 0 20px;
+      padding: 5px 0;
       height: 37px;
   }
   li:hover{
       border-bottom:2px solid black;
   }
 }
-.headerm{
-  width: 100%;
-  border-bottom:3px solid rgb(209, 209, 209);
-  height: 200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-    .headertitle{
-      display: flex;
-      flex-wrap: wrap;
-      width: 490px;
-      h1{
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          font-family: 'Nanum Pen Script', cursive;
-          font-size: 50px;
-          margin: 0;
-      }
-      p{  
-          font-family: 'Nanum Pen Script', cursive;;
-          font-size: 40px;
-          color: rgb(109, 109, 109);
-          margin: 0 auto;
-      }
-      svg{
-        margin-top: 20px;
-         margin: 0 auto;
-      }
-    }
 
-}
 </style>
