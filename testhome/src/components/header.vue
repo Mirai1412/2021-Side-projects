@@ -2,7 +2,7 @@
   <div id="headerpage">
     <form class="headerserch">
       <input type="text" placeholder="">
-      <button>검색</button>
+      <button>검색하기</button>
     </form>
     <div class="headerl">
         <ul>
@@ -79,9 +79,11 @@ export default {
   vertical-align: text-bottom;
 
   button{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.2rem;
     position: absolute;
     top: 1px;
-    width: 50px;
+    width: 70px;
     height: 25px;
     padding: 1px;
     margin: 0px 5px;

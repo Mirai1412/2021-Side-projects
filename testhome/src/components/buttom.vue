@@ -7,9 +7,21 @@
         <li>Twitter</li>
       </ul>
     </div>
+
+    <div class="address"> 
+      <p>Youngjin College of Computer Information
+        <br>
+        Email : kkas0807@naver.com
+        <br>
+        Tel : 010-9115-2813
+      </p>
+    </div>
+
     <div class="buttomt"> 
+      <div class="buttomt2">
       <h1>© 2021 Laravel Personal Project.</h1>
       <p>A cup of warm coffee in your heart</p>
+      </div>
     </div>
   </div>
 </template>
@@ -24,32 +36,38 @@ export default {
 
 <style lang="scss">
 #buttompage{
-  width: 90%;
-  height: 160px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 100px;
   margin: 0 auto;
-  border-top:3px solid rgb(209, 209, 209);
+  border-top:3px solid black;
   margin-top: 50px;
- 
+  position: relative;
 }
 .buttomt{
-  width: 100%;
-  h1{
-    display: flex;
-    justify-content: center;
-    font-size: 1.0em;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .buttomt2{
+      h1{
+        font-size: 1.0em;
+      }
+      p{
+        font-size: 0.7em;
+        text-align: center;
+      }
   }
-  p{
-    display: flex;
-    justify-content: center;
-    font-size: 0.7em;
-  }
+
 }
 .linki{
-  width: 100%;
-    font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   ul{
     display: flex;
-    justify-content: center;
     list-style: none;
     padding: 0;
   }
@@ -59,8 +77,21 @@ export default {
     font-size: 1.5em;
   }
   li:hover{
-        color: brown;
+        color: yellow;
   }
 
+}
+.address{
+  position: absolute;
+  top: 1.1rem;
+  left: 1rem;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.2rem;
+  p{
+    margin: 0;
+  }
+  h1{
+    margin: 0;
+  }
 }
 </style>

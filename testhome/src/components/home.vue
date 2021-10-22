@@ -73,8 +73,9 @@ export default {
 }
 .homem {
     width: 100%;
-    border-bottom: 3px solid rgb(209, 209, 209);
-    border-top: 3px solid rgb(209, 209, 209);
+    // border-bottom: 3px solid rgb(209, 209, 209);
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
     height: 170px;
     margin: 0 auto;
     display: flex;

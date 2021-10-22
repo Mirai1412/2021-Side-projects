@@ -14,6 +14,7 @@ export default {
 .basketpage{
     width: 90%;
     margin: 0 auto;
+    height: 500px;
 }
 </style>
 
