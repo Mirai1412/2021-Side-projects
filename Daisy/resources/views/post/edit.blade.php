@@ -10,6 +10,6 @@
         </style>
     </head>
     <body >
-        <h1>show</h1>
+        <h1>edit</h1>
     </body>
 </x-app-layout>

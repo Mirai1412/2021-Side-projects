@@ -3,7 +3,7 @@
         body{
             width: 80%;
             margin: 0 auto;
-            margin-top: 20px;
+            margin-top: 10px;
             margin-bottom: 20px;
         }
     </style>

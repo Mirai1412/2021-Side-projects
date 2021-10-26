@@ -25,10 +25,13 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 
 Route::get('/home', [PostControllers::class, 'home'])->name('home');
-Route::get('/list', [PostControllers::class, 'list'])->name('list');
-Route::get('/create', [PostControllers::class, 'create'])->name('create');
-Route::get('/show/{id}', [PostControllers::class, 'list'])->name('show');
-
 Route::post('/store', [PostControllers::class, 'store'])->name('store');
 
+Route::get('/create', [PostControllers::class, 'create'])->name('create');
+
+Route::get('/show/{id}', [PostControllers::class, 'list'])->name('show');
+
+Route::get('/post/{id}',[PostsController::class, 'edit'])->name('post.edit');
+
 Route::put('/show/{id}',[PostsController::class, 'update'])->name('post.update');
+Route::delete('/post/{id}',[PostsController::class, 'destroy'])->name('post.delete');
