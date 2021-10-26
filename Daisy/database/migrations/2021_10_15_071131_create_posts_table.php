@@ -17,8 +17,10 @@ class CreatePostsTable extends Migration
             $table->id();
             $table->string('title');
             $table->MEDIUMTEXT('content');
+            $table->string('image')->nullable();
             $table->foreignId('user_id')
             ->constrained()
+            ->onUpdate('cascade')
             ->onDelete('cascade');//사용자가 나가면 같이 삭제해달라는것
             $table->timestamps();
         });

@@ -1,10 +1,24 @@
-<!DOCTYPE html>
-<html>
+<x-app-layout>
     <head>
+        <style>
+            body{
+                width: 80%;
+                margin: 0 auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
     </head>
     <body >
-        <h1>메인</h1>
-        <a href="{{ route('list') }}"><button >리스트 바로가기</button></a>
-        <a href="{{ route('create') }}"><button >글쓰기</button></a>
+        <x-slot name="header" >
+            <h2
+                class="font-semibold text-xl text-gray-800 leading-tight"
+                style="text-align: center">
+                {{ __('HOME') }}
+            </h2>
+        </x-slot>
+        <div>
+            <h1>메인</h1>
+        </div>
     </body>
-</html>
+</x-app-layout>

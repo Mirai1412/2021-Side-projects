@@ -9,5 +9,15 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'post';
+    protected $fillable = [
+        "title",
+        "content",
+        "user_id",
+        "image"
+    ];
+
+    public function writer() {
+        return $this->belongsTo(User::class, "user_id");
+    }
+
 }
