@@ -10,6 +10,8 @@
         </style>
     </head>
     <body >
-        <h1>edit</h1>
+        <div class="m-4 p-4">
+            <h1>sd</h1>
+        </div>
     </body>
 </x-app-layout>

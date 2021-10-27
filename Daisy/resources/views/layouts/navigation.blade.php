@@ -13,7 +13,7 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('DASHBOARD') }}
                     </x-nav-link>
                 </div>
 
@@ -30,8 +30,21 @@
 
 
                 <div class="flex-shrink-0 flex items-center">
+                    <a href="{{ route('mypost') }}"></a>
+                </div>
+
+
+                <!-- Navigation Links -->
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('mypost')" :active="request()->routeIs('mypost')">
+                        {{ __('MY POST') }}
+                    </x-nav-link>
+                </div>
+
+                <div class="flex-shrink-0 flex items-center">
                     <a href="{{ route('create') }}"></a>
                 </div>
+
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
@@ -40,17 +53,7 @@
                     </x-nav-link>
                 </div>
 
-
-
-
-
-
-
             </div>
-
-
-                <!-- Logo -->
-
 
 
             <!-- Settings Dropdown -->

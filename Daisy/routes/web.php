@@ -27,11 +27,13 @@ require __DIR__.'/auth.php';
 Route::get('/home', [PostControllers::class, 'home'])->name('home');
 Route::post('/store', [PostControllers::class, 'store'])->name('store');
 
+Route::get('/mypost', [PostControllers::class, 'mypost'])->name('mypost');
+
 Route::get('/create', [PostControllers::class, 'create'])->name('create');
 
-Route::get('/show/{id}', [PostControllers::class, 'list'])->name('show');
+Route::get('/show/{id}', [PostControllers::class, 'show'])->name('show');
 
-Route::get('/post/{id}',[PostsController::class, 'edit'])->name('post.edit');
+Route::delete('/{id}',[PostControllers::class, 'destroy'])->name('delete');
 
-Route::put('/show/{id}',[PostsController::class, 'update'])->name('post.update');
-Route::delete('/post/{id}',[PostsController::class, 'destroy'])->name('post.delete');
+Route::get('/{post}',[PostsController::class, 'edit'])->name('edit');
+Route::put('/{id}',[PostsController::class, 'update'])->name('update');
