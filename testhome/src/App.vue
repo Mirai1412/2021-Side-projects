@@ -38,7 +38,7 @@ body{
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(0deg, #FFAFBD 0%, #ffc3a0 50%, rgba(255,255,255,1) 60%);
+  // background: linear-gradient(0deg, #FFAFBD 0%, #ffc3a0 50%, rgba(255,255,255,1) 60%);
 }
 </style>
 

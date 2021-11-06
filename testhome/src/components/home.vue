@@ -26,9 +26,44 @@
 
         <div class="coffeechose">
             <div class="homecoffee">
+                <img src="@/views/imges/아메리카노.png" class="coffeeimg">
               <h1>아메리카노</h1>
+              <p>상쾌한 아침에는 한잔의 아메리카노!
+                  <br>
+              가격 : 1500원 
+                  <br>
+              Ice / Hot 선택가능, 샷추가 가능
+              </p>
+              <h2>장바구니에 담기</h2>
             </div>
+
+            <div class="homecoffee">
+                <img src="@/views/imges/아메리카노.png" class="coffeeimg">
+              <h1>카페라떼</h1>
+              <p>부드러운 크림이 주는 행복
+                  <br>
+              가격 : 6500원 
+              </p>
+              <h2>장바구니에 담기</h2>
+            </div>            
+
+            <div class="homecoffee">
+                <img src="@/views/imges/아메리카노.png" class="coffeeimg">
+              <h1>에스프레소</h1>
+              <p>상쾌한 아침에는 한잔의 아메리카노!
+                  <br>
+              가격 : 4500원 
+                  <br>
+              샷추가 가능
+              </p>
+              <h2>장바구니에 담기</h2>
+            </div>
+
+
+
+            
         </div>
+
 
         </div>
 
@@ -51,11 +86,18 @@
               </div>
           </div>
 
-          <div class="store">
-            <h1>
-              가게
-            </h1>
-          </div>
+            <div class="store">
+                <div class="bg1">
+                    <img src="@/views/imges/bg1.jpg"></div>
+                    <div class="bg2">
+                        <img src="@/views/imges/bg2.jpg"></div>
+                        <div class="bg3">
+                            <img src="@/views/imges/bg3.png"></div>
+                            <div class="bg4">
+                                <img src="@/views/imges/bg4.png"></div>
+                                <div class="bg5">
+                                    <img src="@/views/imges/bg5.png"></div>
+                                </div>
         </div>
 </template>
 
@@ -182,21 +224,86 @@ export default {
         }
     }
     .coffeechose{
-        border: 1px solid black;
         height: 500px;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 20px;
-        .homecoffee{
-          width: 20%;
-          height: 500px;
-          border: 1px solid black;
+        margin-top: 40px;
+    .homecoffee{
+        margin: 0 auto;
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 1.5em;
+        width: 80%;
+        height: 150px;
+        border: 1px solid black;
+        position: relative;
+        .coffeeimg{
+            height: 100%;
+        }
+        h1{
+            top: 0;
+            left: 15rem;
+            position: absolute;
+            margin: 0;
+        }
+        p{
+            top: 3.5rem;
+            left: 15rem;
+            position: absolute;
+            margin: 0;
+        }
+        h2{
+            top: 3.5rem;
+            right: 2rem;
+            position: absolute;
+            margin: 0;
+        }
         }
     }
 }
 .store{
+  width: 80%;
+  margin: 0 auto;
   margin-top: 20px;
-  height: 500px;
-  border: 1px solid black;
+  height: 920px;
+  position: relative;
+    .bg1{
+     position: absolute;
+     width: 550px;
+     height: 500px;
+    }
+    .bg2{
+     position: absolute;
+     width: 540px;
+     height: 300px;
+   
+     right: 0;
+    }
+    .bg3{
+     position: absolute;
+     width: 540px;
+     height: 300px;
+
+     right: 0;
+     top: 320px;
+    }
+    .bg4{
+     position: absolute;
+     width: 550px;
+     height: 400px;
+
+     top: 520px;
+    }
+    .bg5{
+     position: absolute;
+     width: 540px;
+     height: 280px;
+
+     right: 0;
+     top: 640px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
 }
 </style>

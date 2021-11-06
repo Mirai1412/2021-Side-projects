@@ -21,8 +21,6 @@
             </a>
         </li>
     </ul>
-    <input type="checkbox" class="controlbar" id="controlbarid">
-
 
     </div>
 </template>
@@ -37,6 +35,7 @@ export default {
     bottom: 80px;
     right: 10px;
     .down{
+        top: -3rem;
         margin: 10px;
         width: 3rem;
         height: 3rem;
@@ -67,6 +66,7 @@ export default {
         margin: 10px;
         width: 3rem;
         height: 3rem;
+        top: -15rem;
         border-radius: 100%;
         background-color: black;
         position: relative;
@@ -97,16 +97,6 @@ export default {
     }
 
 
-
-    .controlul{
-        // display: none;
-    }
-    .controlbar{
-        &:checked ~.controlul{
-            display: block;
-        }
-
-    }
 
 }
 </style>
