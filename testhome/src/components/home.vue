@@ -7,7 +7,6 @@
                     <h1>&nbsp;한잔의 커피,
                         <br>
                           &nbsp;&nbsp;&nbsp;&nbsp;한번의 여행</h1>
-                    <p>Cafe Daisy</p>
                 </div>
 
         </div>
@@ -154,6 +153,7 @@ export default {
     position: relative;
     img {
         width: 100%;
+
     }
     .imgtitle {
         width: 100%;
@@ -168,14 +168,7 @@ export default {
         margin: 0;
         transform: rotate(-2deg);
     }
-    p {
-        font-size: 2.5rem;
-        position: absolute;
-        bottom: 11%;
-        left: 11%;
-        margin: 0;
-        transform: rotate(-4deg);
-    }
+
     }
 
 }
@@ -261,7 +254,7 @@ export default {
     }
 }
 .store{
-  width: 80%;
+  width: 1100px;
   margin: 0 auto;
   margin-top: 20px;
   height: 920px;

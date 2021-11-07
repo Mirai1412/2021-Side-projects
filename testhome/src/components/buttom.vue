@@ -9,8 +9,7 @@
     </div>
 
     <div class="address"> 
-      <p>Youngjin College of Computer Information
-        <br>
+      <p>
         Email : kkas0807@naver.com
         <br>
         Tel : 010-9115-2813
@@ -21,6 +20,7 @@
       <div class="buttomt2">
       <h1>© 2021 Laravel Personal Project.</h1>
       <p>A cup of warm coffee in your heart</p>
+      <p>Producer MIRAI</p>
       </div>
     </div>
   </div>
@@ -46,21 +46,39 @@ export default {
   position: relative;
 }
 .buttomt{
-  padding-top: 10px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.5rem;
+  padding-top: 18px;
   .buttomt2{
       h1{
         font-size: 1.0em;
+        margin: 0;
       }
       p{
         font-size: 0.7em;
         text-align: center;
+        margin: 0;
       }
   }
 
 }
+
+.address{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1.3rem;
+  left: 1.5rem;
+  p{
+    margin: 0;
+  }
+  h1{
+    margin: 0;
+  }
+}
+
 .linki{
   font-family: 'Nanum Pen Script', cursive;
   position: absolute;
@@ -81,17 +99,5 @@ export default {
   }
 
 }
-.address{
-  position: absolute;
-  top: 1.1rem;
-  left: 1rem;
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 1.2rem;
-  p{
-    margin: 0;
-  }
-  h1{
-    margin: 0;
-  }
-}
+
 </style>

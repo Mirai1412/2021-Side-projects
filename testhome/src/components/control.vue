@@ -66,7 +66,7 @@ export default {
         margin: 10px;
         width: 3rem;
         height: 3rem;
-        top: -15rem;
+        top: -5rem;
         border-radius: 100%;
         background-color: black;
         position: relative;
