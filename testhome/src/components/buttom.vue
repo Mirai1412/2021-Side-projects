@@ -20,7 +20,6 @@
       <div class="buttomt2">
       <h1>© 2021 Laravel Personal Project.</h1>
       <p>A cup of warm coffee in your heart</p>
-      <p>Producer MIRAI</p>
       </div>
     </div>
   </div>
@@ -50,7 +49,7 @@ export default {
   justify-content: center;
   // font-family: 'Nanum Pen Script', cursive;
   // font-size: 1.5rem;
-  padding-top: 23px;
+  padding-top: 26px;
   .buttomt2{
       h1{
         font-size: 1.0em;
@@ -95,7 +94,7 @@ export default {
     font-size: 1.5em;
   }
   li:hover{
-        color: yellow;
+        color: red;
   }
 
 }

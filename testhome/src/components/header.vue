@@ -1,9 +1,13 @@
 <template>
   <div id="headerpage">
-    <form class="headerserch">
+
+    <img src="@/views/imges/sk/q1.png" class="hi1">
+    <img src="@/views/imges/sk/q3.png" class="hi2">
+
+    <!-- <form class="headerserch">
       <input type="text" placeholder="">
       <button>검색하기</button>
-    </form>
+    </form> -->
     <div class="headerl">
         <ul>
           <li>로그인</li>
@@ -12,7 +16,7 @@
         </ul>
     </div>
     <div class="headert">
-        <img src="@/views/imges/logo3.png" class="dag">
+        <img src="@/views/imges/logos.png" class="dag">
     </div>
     <div class="headerul">
         <ul>
@@ -42,6 +46,22 @@ export default {
 #headerpage{
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  .hi1{
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    z-index: 10;
+  }
+  .hi2{
+    position: absolute;
+    left: -70px;
+    top: -20px;
+    z-index: 10;
+    width: 600px;
+  }
+
+
 }
 .rl{
     color: black; 
@@ -50,8 +70,8 @@ export default {
 .headerl{
   height: 50px;
   position: absolute;
-  right: 4.5%;
-  
+  left:  4.5%;
+  z-index: 10;
   ul{
     
     margin: 0;
@@ -67,11 +87,12 @@ export default {
     font-size: 1.3em;
   }
   li:hover{
-    color: brown;
+    color: red;
   }
 
 }
 .headerserch{
+  z-index: 11;
   height: 25px;
   top: 15px;
   position: absolute;
@@ -91,7 +112,7 @@ export default {
     border: 1px solid black;
 
     &:hover{
-      color: white;
+      color: red;
       background: black;
     }
   }
@@ -109,9 +130,10 @@ export default {
   padding-top: 40px;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 1;
     .dag{
-      height: 150px;
-      border-top: none;
+      position: absolute;
     }
 }
 .headerul{

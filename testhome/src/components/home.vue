@@ -2,7 +2,7 @@
     <div id="mainpage">
 
         <div class="homeimg">
-            <img src="@/views/imges/x3.png" class="dag">
+            <img src="@/views/imges/d2.png" class="dag">
         </div>
 
         <div class="maincoffee">
