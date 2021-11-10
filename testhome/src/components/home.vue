@@ -2,13 +2,7 @@
     <div id="mainpage">
 
         <div class="homeimg">
-            <img src="@/views/imges/cd.png" class="dag">
-                <div class="imgtitle">
-                    <h1>&nbsp;한잔의 커피,
-                        <br>
-                          &nbsp;&nbsp;&nbsp;&nbsp;한번의 여행</h1>
-                </div>
-
+            <img src="@/views/imges/x3.png" class="dag">
         </div>
 
         <div class="maincoffee">
@@ -33,7 +27,7 @@
                   <br>
               Ice / Hot 선택가능, 샷추가 가능
               </p>
-              <h2>장바구니에 담기</h2>
+              <h2>장바구니 -></h2>
             </div>
 
             <div class="homecoffee">
@@ -43,26 +37,22 @@
                   <br>
               가격 : 6500원 
               </p>
-              <h2>장바구니에 담기</h2>
+              <h2>장바구니 -></h2>
             </div>            
 
             <div class="homecoffee">
                 <img src="@/views/imges/아메리카노.png" class="coffeeimg">
               <h1>에스프레소</h1>
-              <p>상쾌한 아침에는 한잔의 아메리카노!
+              <p>찐한 에스프레소의 감동
                   <br>
               가격 : 4500원 
                   <br>
               샷추가 가능
               </p>
-              <h2>장바구니에 담기</h2>
+              <h2>장바구니 -></h2>
             </div>
 
-
-
-            
         </div>
-
 
         </div>
 
@@ -84,6 +74,7 @@
                 <p>Montesquieu</p>
               </div>
           </div>
+
 
             <div class="store">
                 <div class="bg1">
@@ -149,25 +140,10 @@ export default {
 
 }
 .homeimg {
-    margin: 10px 0;
+    margin:  0;
     position: relative;
     img {
         width: 100%;
-
-    }
-    .imgtitle {
-        width: 100%;
-        height: 100%;
-        font-family: 'Nanum Pen Script', cursive;
-        color: rgb(82, 47, 67);
-    h1 {
-        font-size: 6rem;
-        position: absolute;
-        left: 12%;
-        top: 35%;
-        margin: 0;
-        transform: rotate(-2deg);
-    }
 
     }
 
@@ -227,7 +203,7 @@ export default {
         font-size: 1.5em;
         width: 80%;
         height: 150px;
-        border: 1px solid black;
+        border: 1px solid rgb(175, 175, 175);
         position: relative;
         .coffeeimg{
             height: 100%;
@@ -297,6 +273,12 @@ export default {
     img{
         width: 100%;
         height: 100%;
+    }
+}
+.menupan{
+    margin: 20px 0;
+    img{
+        width: 100%;
     }
 }
 </style>

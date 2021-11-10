@@ -3,21 +3,21 @@
     <Header/>
       <router-view/> 
     <Buttom/>
-    <Control/>
+    <!-- <Control/> -->
   </div>
 </template>
 
 <script>
 import Header from './components/header.vue'
 import Buttom from './components/buttom.vue'
-import Control from '@/components/control.vue'
+// import Control from '@/components/control.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Buttom, 
-    Control
+    // Control
   }
 }
 </script>

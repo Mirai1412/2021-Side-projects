@@ -12,7 +12,7 @@
         </ul>
     </div>
     <div class="headert">
-        <img src="@/views/imges/D.png" class="dag">
+        <img src="@/views/imges/logo3.png" class="dag">
     </div>
     <div class="headerul">
         <ul>

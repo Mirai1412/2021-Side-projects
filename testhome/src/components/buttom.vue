@@ -48,9 +48,9 @@ export default {
 .buttomt{
   display: flex;
   justify-content: center;
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 1.5rem;
-  padding-top: 18px;
+  // font-family: 'Nanum Pen Script', cursive;
+  // font-size: 1.5rem;
+  padding-top: 23px;
   .buttomt2{
       h1{
         font-size: 1.0em;

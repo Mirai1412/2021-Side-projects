@@ -1,6 +1,6 @@
 <template>
   <div class="centerpage">
-      <h1>샌터</h1>
+      <h1>센터</h1>
   </div>
 </template>
 
