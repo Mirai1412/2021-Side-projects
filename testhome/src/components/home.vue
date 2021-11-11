@@ -7,87 +7,80 @@
 
         <div class="maincoffee">
             <div class="coffeehader">
-                <div class="line"/>
-                  <h1>인기 메뉴</h1>
-                <div class="line2"/>
-                  <p>카페 데이지는 브라질 스페셜티 원두를 함께 블렌딩하여 사용하여
-                      <br>
-                        수확한지 1년 미만 된 아라비카 뉴크롭 생두를
-                      <br>
-                        생산국 정부의 수확 시기, 품질, 크기 등 엄격한 기준을 토대로 선별하여 수입합니다.</p>
+                <img src="@/views/imges/sk/f1.png" >
+            <div class="line"/>
+                <h1>인기 메뉴</h1>
+            <div class="line2"/>
+                <p>우리 '매화'는 품질과 혁신에 최선을 다하여 '매화'를 방문하시는 모든 고객님께 
+                    최고의 차 경험을 제공함으로
+                    <br>
+                    누구나 마음껏 차를 즐길 수 있는 차 대중화의 선도적 역할을 수행하겠습니다.
+                </p>
+            </div>
+            <div class="coffeechose">
+                <div class="homecoffee">
+                    <img src="@/views/imges/아메리카노.png" class="coffeeimg">
+                        <h1>녹차</h1>
+                            <p>따뜻한 녹차는 마음도 따뜻하게!
+                                <br>
+                            가격 : 4500원 
+                            </p>
+                        <h2>장바구니 -></h2>
+                </div>
             </div>
 
-        <div class="coffeechose">
+            <div class="coffeechose">
             <div class="homecoffee">
                 <img src="@/views/imges/아메리카노.png" class="coffeeimg">
-              <h1>아메리카노</h1>
-              <p>상쾌한 아침에는 한잔의 아메리카노!
-                  <br>
-              가격 : 1500원 
-                  <br>
-              Ice / Hot 선택가능, 샷추가 가능
-              </p>
-              <h2>장바구니 -></h2>
-            </div>
-
-            <div class="homecoffee">
-                <img src="@/views/imges/아메리카노.png" class="coffeeimg">
-              <h1>카페라떼</h1>
-              <p>부드러운 크림이 주는 행복
-                  <br>
-              가격 : 6500원 
-              </p>
-              <h2>장바구니 -></h2>
-            </div>            
-
-            <div class="homecoffee">
-                <img src="@/views/imges/아메리카노.png" class="coffeeimg">
-              <h1>에스프레소</h1>
-              <p>찐한 에스프레소의 감동
+              <h1>녹차</h1>
+              <p>따뜻한 녹차는 마음도 따뜻하게!
                   <br>
               가격 : 4500원 
-                  <br>
-              샷추가 가능
               </p>
               <h2>장바구니 -></h2>
             </div>
+            </div>
 
-        </div>
-
+                <div class="coffeechose">
+            <div class="homecoffee">
+                <img src="@/views/imges/아메리카노.png" class="coffeeimg">
+              <h1>녹차</h1>
+              <p>따뜻한 녹차는 마음도 따뜻하게!
+                  <br>
+              가격 : 4500원 
+              </p>
+              <h2>장바구니 -></h2>
+            </div>
+            </div>
+                <img src="@/views/imges/sk/q5.png" class="tree" >
+                <img src="@/views/imges/sk/a4.png" class="tree2" >
         </div>
 
         <div class="homem">
             <div class="hometitle">
-                  <svg
-                      aria-label="하트"
-                      class="_8-yf5 "
-                      color="#ed4956"
-                      fill="#ed4956"
-                      height="24"
-                      role="img"
-                      viewBox="0 0 48 48"
-                      width="24">
-                    <path
-                        d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path>
-                  </svg>
-                <h1>"Coffee makes people witty"</h1>
-                <p>Montesquieu</p>
-              </div>
-          </div>
+                <img src="@/views/imges/l12.png">
+                <h1>"NO matter what is happening in your life, you always offer tea"</h1>
+                <p>- Clemantine Wamariya -</p>
+            </div>
+        </div>
 
-
-            <div class="store">
-                <div class="bg1">
-                    <img src="@/views/imges/bg1.jpg"></div>
-                    <div class="bg2">
-                        <img src="@/views/imges/bg2.jpg"></div>
-                        <div class="bg3">
-                            <img src="@/views/imges/bg3.png"></div>
-                            <div class="bg4">
-                                <img src="@/views/imges/bg4.png"></div>
-                                <div class="bg5">
-                                    <img src="@/views/imges/bg5.png"></div>
-                                </div>
+        <div class="store">
+            <div class="bg1">
+            <img src="@/views/imges/bg1.jpg">
+            </div>
+            <div class="bg2">
+            <img src="@/views/imges/bg2.jpg">
+            </div>
+            <div class="bg3">
+            <img src="@/views/imges/bg3.png">
+            </div>
+            <div class="bg4">
+            <img src="@/views/imges/bg4.png">
+            </div>
+            <div class="bg5">
+            <img src="@/views/imges/bg5.png">
+            </div>
+        </div>
         </div>
 </template>
 
@@ -101,7 +94,6 @@ export default {
 #mainpage {
     width: 90%;
     margin: 0 auto;
-
 }
 .homem {
     width: 100%;
@@ -113,13 +105,14 @@ export default {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    position: relative;
 
     .hometitle {
         height: 140px;
         display: flex;
         flex-wrap: wrap;
-        width: 490px;
-        h1 {
+        width: 1180px;
+    h1 {
             width: 100%;
             display: flex;
             justify-content: center;
@@ -127,39 +120,62 @@ export default {
             font-size: 3em;
             margin: 0;
         }
-        p {
+    p {
             font-family: 'Nanum Pen Script', cursive;
             font-size: 2em;
             color: rgb(109, 109, 109);
             margin: 0 auto;
         }
-        svg {
+    img{
             margin: 0 auto;
         }
     }
-
 }
+
 .homeimg {
     margin:  0;
     position: relative;
     img {
         width: 100%;
-
     }
-
 }
+
 .maincoffee {
-    width: 100%;
+    width: 1380px;
+    margin: 0 auto;
     height: 700px;
     margin-bottom: 20px;
-
+    position: relative;
+    .tree{
+        left: 30px;
+        width: 280px;
+        position: absolute;
+        z-index: 1;
+        top: 232px;
+    }
+    .tree2{
+        right: 137px;
+        width: 400px;
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+    }
     .coffeehader {
         width: 100%;
         height: 170px;
         position: relative;
         display: flex;
         flex-wrap: wrap;
+        img{
+            left: 400px;
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            z-index: 0;
+            top: -50px;
+        }
         h1 {
+            z-index: 5;
             font-family: 'Nanum Pen Script', cursive;
             font-size: 3em;
             margin: 0;
@@ -170,6 +186,7 @@ export default {
             justify-content: center;
         }
         p {
+             z-index: 5;
             font-family: 'Nanum Pen Script', cursive;
             font-size: 1.5em;
             width: 100%;
@@ -192,40 +209,43 @@ export default {
             border-bottom: 2px solid black;
         }
     }
+
     .coffeechose{
-        height: 500px;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 40px;
-    .homecoffee{
-        margin: 0 auto;
-        font-family: 'Nanum Pen Script', cursive;
-        font-size: 1.5em;
-        width: 80%;
-        height: 150px;
-        border: 1px solid rgb(175, 175, 175);
-        position: relative;
-        .coffeeimg{
-            height: 100%;
-        }
-        h1{
-            top: 0;
-            left: 15rem;
-            position: absolute;
-            margin: 0;
-        }
-        p{
-            top: 3.5rem;
-            left: 15rem;
-            position: absolute;
-            margin: 0;
-        }
-        h2{
-            top: 3.5rem;
-            right: 2rem;
-            position: absolute;
-            margin: 0;
-        }
+        margin-top: 20px;
+        width: 1380px;
+
+        .homecoffee{
+            margin: 0 auto;
+            font-family: 'Nanum Pen Script', cursive;
+            font-size: 1.5em;
+            z-index: 6;
+            width: 80%;
+            height: 150px;
+            border: 1px solid rgb(175, 175, 175);
+            position: relative;
+                .coffeeimg{
+                    height: 100%;
+                }
+                h1{
+                    top: 10px;
+                    left: 15rem;
+                    position: absolute;
+                    margin: 0;
+                }
+                p{
+                    top: 4.5rem;
+                    left: 15rem;
+                    position: absolute;
+                    margin: 0;
+                }
+                h2{
+                    top: 3.5rem;
+                    right: 2rem;
+                    position: absolute;
+                    margin: 0;
+                }
         }
     }
 }

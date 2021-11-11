@@ -1,20 +1,5 @@
 <template>
   <div id="buttompage">
-    <div class="linki">
-      <ul>
-        <li>Facebook</li>
-        <li>Instargram</li>
-        <li>Twitter</li>
-      </ul>
-    </div>
-
-    <div class="address"> 
-      <p>
-        Email : kkas0807@naver.com
-        <br>
-        Tel : 010-9115-2813
-      </p>
-    </div>
 
     <div class="buttomt"> 
       <div class="buttomt2">
@@ -23,6 +8,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -47,8 +33,8 @@ export default {
 .buttomt{
   display: flex;
   justify-content: center;
-  // font-family: 'Nanum Pen Script', cursive;
-  // font-size: 1.5rem;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.5rem;
   padding-top: 26px;
   .buttomt2{
       h1{
@@ -64,39 +50,7 @@ export default {
 
 }
 
-.address{
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 1.3rem;
-  left: 1.5rem;
-  p{
-    margin: 0;
-  }
-  h1{
-    margin: 0;
-  }
-}
 
-.linki{
-  font-family: 'Nanum Pen Script', cursive;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  ul{
-    display: flex;
-    list-style: none;
-    padding: 0;
-  }
-  li{
-    display: inline;
-    margin: 0 10px;
-    font-size: 1.5em;
-  }
-  li:hover{
-        color: red;
-  }
 
-}
 
 </style>
