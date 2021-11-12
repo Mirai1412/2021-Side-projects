@@ -12,7 +12,6 @@
         <ul>
           <li>로그인</li>
           <li>회원가입</li>
-          <li><router-link to="/center" class="rl">고객센터</router-link></li>
         </ul>
     </div>
     <div class="headert">
@@ -51,7 +50,7 @@ export default {
     position: absolute;
     right: 0px;
     width: 600px;
-    z-index: 10;
+    z-index: 3;
   }
   .hi2{
     position: absolute;
@@ -71,7 +70,7 @@ export default {
   height: 50px;
   position: absolute;
   left:  4.5%;
-  z-index: 10;
+  z-index: 1;
   ul{
     
     margin: 0;
@@ -92,7 +91,7 @@ export default {
 
 }
 .headerserch{
-  z-index: 11;
+  z-index: 3;
   height: 25px;
   top: 15px;
   position: absolute;
@@ -144,9 +143,7 @@ export default {
   height: 47px;
   justify-content: center;
   position: relative;
-  
   ul{ 
-
       margin: 0;
       padding: 0;
       position: absolute;

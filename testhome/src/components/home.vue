@@ -250,10 +250,11 @@ export default {
     }
 }
 .store{
-  width: 1100px;
+  width: 1110px;
   margin: 0 auto;
   margin-top: 20px;
   height: 920px;
+  z-index: 6;
   position: relative;
     .bg1{
      position: absolute;
