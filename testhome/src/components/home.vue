@@ -254,7 +254,7 @@ export default {
   margin: 0 auto;
   margin-top: 20px;
   height: 920px;
-  z-index: 6;
+  z-index: 5;
   position: relative;
     .bg1{
      position: absolute;

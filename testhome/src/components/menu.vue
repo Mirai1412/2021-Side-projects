@@ -5,63 +5,7 @@
 
           <div class="menu1">
                <img src="@/views/imges/아메리카노.png">
-                <img src="@/views/imges/h.png" class="hot">
-               <h1>아메리카노</h1>
-              <p>상쾌한 아침에는 한잔의 아메리카노!
-                  <br>
-              가격 : 1500원 
-                  <br>
-              Ice / Hot 선택가능
-                 <br>
-              샷추가 가능
-              </p>
-              <button>주문</button>
-          </div>
-
-                      <div class="menu1">
-               <img src="@/views/imges/아메리카노.png">
-                <img src="@/views/imges/new.png" class="hot">
-               <h1>아메리카노</h1>
-              <p>상쾌한 아침에는 한잔의 아메리카노!
-                  <br>
-              가격 : 1500원 
-                  <br>
-              Ice / Hot 선택가능
-                 <br>
-              샷추가 가능
-              </p>
-              <button>주문</button>
-          </div>
-
-          <div class="menu1">
-               <img src="@/views/imges/아메리카노.png">
-                <img src="@/views/imges/sorry.png" class="hot">
-               <h1>아메리카노</h1>
-              <p>상쾌한 아침에는 한잔의 아메리카노!
-                  <br>
-              가격 : 1500원 
-                  <br>
-              Ice / Hot 선택가능
-                 <br>
-              샷추가 가능
-              </p>
-              <button>주문</button>
-          </div>
-          <div class="menu1">
-               <img src="@/views/imges/아메리카노.png">
-               <h1>아메리카노</h1>
-              <p>상쾌한 아침에는 한잔의 아메리카노!
-                  <br>
-              가격 : 1500원 
-                  <br>
-              Ice / Hot 선택가능
-                 <br>
-              샷추가 가능
-              </p>
-              <button>주문</button>
-          </div>
-          <div class="menu1">
-               <img src="@/views/imges/아메리카노.png">
+                <!-- <img src="@/views/imges/sk/q5.png" class="bakf"> -->
                <h1>아메리카노</h1>
               <p>상쾌한 아침에는 한잔의 아메리카노!
                   <br>
@@ -103,17 +47,18 @@ export default {
         flex-wrap: wrap;
 
         .menu1{
+        z-index: 8;
         border: 1px solid rgb(228, 228, 228);
         width: 220px;
         height: 400px;
         margin: 0 27.238px 20px 27.238px;
         position: relative;
-        .hot{
+        background-color: white;
+        .bakf{
             position: absolute;
-            left: -1px;
-            width: 222px;
-            top: 120px;
-            height: 50px;
+            left: 0;
+            bottom: 0;
+            height: 300px;
         }
         img{
             width: 100%;
